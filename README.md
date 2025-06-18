@@ -1,5 +1,6 @@
 # Running The project :
-  * npm run server - to run the server jar
-  * npm run start - run the react application
+  * run npm i for all the dependencies
+  * npm run server to start the server's jar
+  * npm run start to start the react application
 
 
