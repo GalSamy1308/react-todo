@@ -1,0 +1,960 @@
+2025-06-17 11:03:49.510 [main] INFO  com.todolist.service.TodoService - No existing todos file found, starting with empty list
+2025-06-17 11:03:49.537 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-17 11:03:49.717 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-17 11:04:16.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 11:04:16.241 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 0 todos
+2025-06-17 11:04:45.697 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {
+    "title": "My Todo",
+    "description": "Description of my todo",
+    "completed": false
+}
+2025-06-17 11:04:45.809 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 12:32:42.805 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 12:32:42.820 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 1 todos
+2025-06-17 16:11:41.561 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {
+    "title": "My Todo",
+    "description": "",
+    "completed": false
+}
+2025-06-17 16:11:41.610 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 16:11:47.707 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {
+    "title": "My Todo",
+    "description": ,
+    "completed": false
+}
+2025-06-17 16:11:47.731 [vert.x-eventloop-thread-0] ERROR com.todolist.MainVerticle - Error parsing todo request body
+com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"{
+    "title": "My Todo",
+    "description": ,
+    "completed": false
+}"; line: 3, column: 21]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2085)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:1029)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:321)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3740)
+	at com.todolist.MainVerticle.createTodo(MainVerticle.java:105)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1285)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:143)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.doEnd(BodyHandlerImpl.java:359)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.end(BodyHandlerImpl.java:336)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:258)
+	at io.vertx.core.http.impl.HttpEventHandler.handleEnd(HttpEventHandler.java:76)
+	at io.vertx.core.http.impl.Http1xServerRequest.onEnd(Http1xServerRequest.java:595)
+	at io.vertx.core.http.impl.Http1xServerRequest.lambda$pendingQueue$1(Http1xServerRequest.java:133)
+	at io.vertx.core.streams.impl.InboundBuffer.handleEvent(InboundBuffer.java:255)
+	at io.vertx.core.streams.impl.InboundBuffer.write(InboundBuffer.java:134)
+	at io.vertx.core.http.impl.Http1xServerRequest.handleEnd(Http1xServerRequest.java:576)
+	at io.vertx.core.impl.ContextImpl.execute(ContextImpl.java:320)
+	at io.vertx.core.impl.DuplicatedContext.execute(DuplicatedContext.java:171)
+	at io.vertx.core.http.impl.Http1xServerConnection.onEnd(Http1xServerConnection.java:221)
+	at io.vertx.core.http.impl.Http1xServerConnection.onContent(Http1xServerConnection.java:209)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleOther(Http1xServerConnection.java:189)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:176)
+	at io.vertx.core.net.impl.ConnectionBase.read(ConnectionBase.java:159)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler.channelRead(WebSocketServerExtensionHandler.java:88)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025-06-17 16:11:47.813 [vert.x-eventloop-thread-0] ERROR com.todolist.MainVerticle - Error processing request
+com.fasterxml.jackson.core.JsonParseException: Unexpected character (',' (code 44)): expected a valid value (JSON String, Number, Array, Object or token 'null', 'true' or 'false')
+ at [Source: (String)"{
+    "title": "My Todo",
+    "description": ,
+    "completed": false
+}"; line: 3, column: 21]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:2477)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:750)
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:674)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser._handleOddValue(ReaderBasedJsonParser.java:2085)
+	at com.fasterxml.jackson.core.json.ReaderBasedJsonParser.nextFieldName(ReaderBasedJsonParser.java:1029)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.vanillaDeserialize(BeanDeserializer.java:321)
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:177)
+	at com.fasterxml.jackson.databind.deser.DefaultDeserializationContext.readRootValue(DefaultDeserializationContext.java:323)
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4825)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3772)
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3740)
+	at com.todolist.MainVerticle.createTodo(MainVerticle.java:105)
+	at io.vertx.ext.web.impl.RouteState.handleContext(RouteState.java:1285)
+	at io.vertx.ext.web.impl.RoutingContextImplBase.iterateNext(RoutingContextImplBase.java:177)
+	at io.vertx.ext.web.impl.RoutingContextImpl.next(RoutingContextImpl.java:143)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.doEnd(BodyHandlerImpl.java:359)
+	at io.vertx.ext.web.handler.impl.BodyHandlerImpl$BHandler.end(BodyHandlerImpl.java:336)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:276)
+	at io.vertx.core.impl.ContextInternal.dispatch(ContextInternal.java:258)
+	at io.vertx.core.http.impl.HttpEventHandler.handleEnd(HttpEventHandler.java:76)
+	at io.vertx.core.http.impl.Http1xServerRequest.onEnd(Http1xServerRequest.java:595)
+	at io.vertx.core.http.impl.Http1xServerRequest.lambda$pendingQueue$1(Http1xServerRequest.java:133)
+	at io.vertx.core.streams.impl.InboundBuffer.handleEvent(InboundBuffer.java:255)
+	at io.vertx.core.streams.impl.InboundBuffer.write(InboundBuffer.java:134)
+	at io.vertx.core.http.impl.Http1xServerRequest.handleEnd(Http1xServerRequest.java:576)
+	at io.vertx.core.impl.ContextImpl.execute(ContextImpl.java:320)
+	at io.vertx.core.impl.DuplicatedContext.execute(DuplicatedContext.java:171)
+	at io.vertx.core.http.impl.Http1xServerConnection.onEnd(Http1xServerConnection.java:221)
+	at io.vertx.core.http.impl.Http1xServerConnection.onContent(Http1xServerConnection.java:209)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleOther(Http1xServerConnection.java:189)
+	at io.vertx.core.http.impl.Http1xServerConnection.handleMessage(Http1xServerConnection.java:176)
+	at io.vertx.core.net.impl.ConnectionBase.read(ConnectionBase.java:159)
+	at io.vertx.core.net.impl.VertxHandler.channelRead(VertxHandler.java:153)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:93)
+	at io.netty.handler.codec.http.websocketx.extensions.WebSocketServerExtensionHandler.channelRead(WebSocketServerExtensionHandler.java:88)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:442)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:346)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:318)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:444)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:412)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1410)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:440)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:420)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:919)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:166)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:788)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:1447)
+2025-06-17 16:21:48.750 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:21:48.767 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-17 16:23:25.394 [main] INFO  com.todolist.service.TodoService - Loaded 2 todos from file
+2025-06-17 16:23:25.428 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-17 16:23:25.639 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-17 16:24:01.448 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:24:01.472 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-17 16:24:16.634 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"test","description":"test description","completed":false}
+2025-06-17 16:24:16.661 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 16:24:20.838 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:24:20.839 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 3 todos
+2025-06-17 16:24:51.469 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 16:24:51.471 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 16:27:09.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:27:09.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 16:27:42.116 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"test","description":"rest","completed":false}
+2025-06-17 16:27:42.117 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 16:27:47.275 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:27:47.275 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 16:27:50.645 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:27:50.646 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 16:27:52.728 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:27:52.729 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 16:31:45.872 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:31:45.873 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 16:34:40.156 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:34:40.157 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 16:35:22.969 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 16:35:22.970 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 16:35:35.382 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 16:35:35.382 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 6 todos
+2025-06-17 17:30:53.076 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"dfadf","description":"asdfadf","completed":false}
+2025-06-17 17:30:53.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 18:14:28.450 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:14:28.451 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 18:18:58.371 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:18:58.373 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 18:26:19.824 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:26:19.825 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 18:26:24.099 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:26:24.099 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 18:33:58.135 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 18:33:58.137 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 18:47:51.173 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:47:51.174 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 18:51:18.145 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:51:18.145 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 18:51:34.116 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:51:34.119 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 18:51:35.674 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 18:51:35.686 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 18:51:37.521 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:51:37.522 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 18:51:39.647 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 18:51:39.648 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 18:51:47.725 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:51:47.726 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 18:56:44.195 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:56:44.196 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 18:56:48.806 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 18:56:48.808 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 18:56:49.392 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 18:56:49.393 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 18:56:49.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 18:56:49.797 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 18:56:51.477 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 18:56:51.478 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:03:44.583 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:03:44.583 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:04:24.995 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:04:24.996 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:07:57.139 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:07:57.139 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:08:07.363 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 19:08:07.364 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 19:18:38.737 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:18:38.737 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:22:42.680 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:22:42.680 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:23:18.168 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:23:18.169 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:29:46.248 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:29:46.248 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:30:37.537 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 19:30:37.539 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 19:30:38.008 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 19:30:38.009 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 19:30:38.519 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 19:30:38.520 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 19:30:38.987 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 19:30:38.988 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 19:30:41.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 19:30:41.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 19:30:43.671 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:30:43.671 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:33:19.247 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:33:19.248 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:35:41.227 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 19:35:41.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 19:35:42.025 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 19:35:42.026 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 19:35:43.399 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 19:35:43.399 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 19:35:43.887 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 19:35:43.888 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 19:54:30.136 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:54:30.137 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:59:18.551 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:59:18.552 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:59:20.370 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 19:59:20.371 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 19:59:21.986 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:59:21.986 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 19:59:27.615 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 19:59:27.616 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 19:59:34.095 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 19:59:34.096 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 19:59:36.649 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 19:59:36.649 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:00:30.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:00:30.966 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:00:55.504 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:00:55.505 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:01:02.984 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:01:02.984 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:01:05.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:01:05.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:01:23.180 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:01:23.181 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:01:37.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:01:37.758 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:01:58.399 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:01:58.400 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:02:14.560 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:02:14.561 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:02:48.640 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:02:48.640 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:02:50.226 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:02:50.227 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:02:52.272 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:02:52.273 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:02:58.612 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:02:58.613 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:03:01.767 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:03:01.768 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:03:04.375 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:03:04.376 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:03:45.858 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:03:45.859 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:04:44.616 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:04:44.617 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:04:50.672 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:04:50.673 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:04:54.136 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:04:54.136 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:04:56.017 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:04:56.018 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:05:01.469 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:05:01.470 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:05:53.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:05:53.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:05:55.877 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:05:55.878 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:11.394 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:11.395 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:11.398 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:10:11.400 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:11.403 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:11.404 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:11.406 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:11.407 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:11.409 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:11.411 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:11.414 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:11.414 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:11.416 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:11.418 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:10:11.419 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:10:11.420 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:14.592 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:10:14.593 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:10:14.751 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:14.752 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:14.754 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:10:14.755 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:14.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:14.759 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:14.761 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:14.761 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:14.763 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:14.765 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:14.767 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:10:14.768 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:14.770 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:14.772 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:10:14.774 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:14.775 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:14.777 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:14.779 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:14.782 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":false}
+2025-06-17 20:10:14.784 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:14.786 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:14.787 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:14.789 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:14.792 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:14.794 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:14.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:14.797 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:10:14.799 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:14.801 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:14.803 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:14.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:14.808 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:10:16.669 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:10:16.670 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:22.224 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:10:22.225 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:10:22.401 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:22.403 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:22.405 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:10:22.406 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:22.408 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:22.409 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:22.411 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:22.413 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:22.415 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:10:22.416 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:22.418 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:22.420 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:22.422 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:22.422 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:22.423 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:22.424 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:22.426 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:10:22.427 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:22.429 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:22.430 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:22.433 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:22.435 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:10:22.436 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:22.437 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:22.439 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:10:22.441 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:22.443 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:22.444 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:22.446 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:22.447 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:10:22.449 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:22.450 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:25.677 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 20:10:25.678 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:27.776 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:10:27.777 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:10:27.887 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:27.888 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:27.890 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:10:27.892 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:10:27.894 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:10:27.895 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:27.897 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:10:27.898 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:10:27.901 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:27.902 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:27.905 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:27.906 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:27.908 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:27.909 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:27.912 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 20:10:27.913 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:27.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:27.915 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:27.917 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:27.918 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:10:27.919 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:10:27.921 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:10:27.923 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:10:27.924 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:10:27.927 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":false}
+2025-06-17 20:10:27.928 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:10:27.930 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 20:10:27.931 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:10:27.933 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:10:27.934 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:10:27.936 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:10:27.937 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:13:29.274 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:13:29.275 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:13:31.608 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:13:31.609 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:13:31.712 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:13:31.713 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:13:31.715 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:13:31.716 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:13:31.718 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:13:31.719 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:13:31.724 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:13:31.725 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:13:31.727 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:13:31.729 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:13:31.731 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:13:31.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:13:31.735 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:13:31.736 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:13:31.739 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:13:31.744 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:13:31.746 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:13:31.747 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:13:31.748 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 20:13:31.751 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:13:31.753 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:13:31.754 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:13:31.756 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:13:31.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:13:31.759 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:13:31.760 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:13:31.764 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 20:13:31.766 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:13:31.767 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:13:31.769 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:13:31.771 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:13:31.772 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:13:37.947 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:13:37.948 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:13:47.238 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":false}
+2025-06-17 20:13:47.240 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:13:50.139 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:13:50.140 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:13:54.496 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 20:13:54.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:13:56.491 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:13:56.492 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:15:47.829 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:15:47.829 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:15:47.908 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:15:47.909 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:15:47.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:15:47.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:15:47.917 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:15:47.918 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:15:47.920 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:15:47.921 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:15:47.922 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:15:47.923 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:15:47.925 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:15:47.926 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:15:47.928 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:15:47.929 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:15:47.931 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:15:47.932 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:15:47.935 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:15:47.936 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:15:47.937 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:15:47.938 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:15:47.940 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:15:47.941 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:15:47.943 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:15:47.944 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:15:47.946 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:15:47.947 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:15:47.949 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:15:47.950 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:15:47.953 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:15:47.954 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:15:47.956 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:15:47.957 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:16:28.711 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:16:28.711 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:16:28.802 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:16:28.803 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:16:28.805 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:16:28.806 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:16:28.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:16:28.808 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:16:28.810 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:16:28.811 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:16:28.815 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:16:28.815 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:16:28.816 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:16:28.817 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:16:28.819 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:16:28.820 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:16:28.822 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:16:28.823 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:16:28.825 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:16:28.826 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:16:28.830 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:16:28.831 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:16:28.837 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:16:28.839 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:16:28.841 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:16:28.842 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:16:28.844 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:16:28.845 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:16:28.847 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:16:28.848 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:16:28.851 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:16:28.852 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:16:28.853 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:16:28.855 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:16:30.857 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:16:30.857 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:16:30.928 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:16:30.929 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:16:30.931 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:16:30.932 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:16:30.934 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:16:30.935 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:16:30.936 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:16:30.938 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:16:30.939 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:16:30.941 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:16:30.943 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:16:30.944 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:16:30.945 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:16:30.946 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:16:30.948 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:16:30.949 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:16:30.952 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:16:30.953 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:16:30.955 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:16:30.956 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:16:30.957 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:16:30.959 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:16:30.961 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:16:30.962 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:16:30.963 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:16:30.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:16:30.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:16:30.967 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:16:30.968 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:16:30.969 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:16:30.971 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:16:30.973 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:28.502 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:20:28.502 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:20:28.613 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:28.614 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:28.630 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:28.631 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:28.634 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:28.635 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:28.637 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:28.638 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:28.639 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:28.640 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:28.641 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:28.642 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:28.644 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:28.645 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:28.646 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:28.647 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:28.648 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:28.649 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:28.651 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:28.652 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:28.654 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:28.655 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:28.657 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:28.658 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:28.659 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:28.660 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:28.662 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:28.663 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:28.664 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:20:28.665 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:28.667 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:20:28.668 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:28.669 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:28.670 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:28.672 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:28.673 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:28.675 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:28.676 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:28.678 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:28.679 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:28.680 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:28.681 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:28.682 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:28.684 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:28.685 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:28.686 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:28.687 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:28.688 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:28.690 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:28.691 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:28.693 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:28.694 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:28.695 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:28.697 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:28.699 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:28.700 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:28.702 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:28.703 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:28.704 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:28.705 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:28.706 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:20:28.708 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:28.708 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:20:28.709 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:29.322 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 20:20:29.323 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:31.663 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:20:31.664 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:20:31.732 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:31.734 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:31.735 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:31.736 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:31.738 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:31.739 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:31.740 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:31.741 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:31.743 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:31.744 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:31.746 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:31.748 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:31.749 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:31.751 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:31.752 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:31.754 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:31.756 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:31.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:31.760 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:31.761 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:31.763 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:31.764 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:31.765 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:31.766 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:31.768 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:31.769 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:31.770 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:31.771 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:31.773 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 20:20:31.774 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:31.776 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 20:20:31.777 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:31.778 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:31.778 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:31.779 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:31.780 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:31.782 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:31.783 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:31.784 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:31.786 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:31.787 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:31.788 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:31.790 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:31.791 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:31.792 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:31.793 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:31.794 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:31.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:31.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:31.797 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:31.798 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:31.799 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:31.800 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:31.802 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:31.803 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:31.804 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:31.805 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:31.806 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:31.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:31.808 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:31.809 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 20:20:31.810 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:31.811 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":true}
+2025-06-17 20:20:31.812 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:33.592 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"weras","description":"fdasfasd","completed":false}
+2025-06-17 20:20:33.593 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:44.957 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited","description":"edited","completed":false}
+2025-06-17 20:20:44.958 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:47.176 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:20:47.176 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:20:47.258 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited","description":"edited","completed":false}
+2025-06-17 20:20:47.259 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:47.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited","description":"edited","completed":false}
+2025-06-17 20:20:47.261 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:47.262 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:47.264 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:47.266 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:47.266 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:47.267 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:47.268 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:47.275 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited","description":"edited","completed":false}
+2025-06-17 20:20:47.276 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:47.277 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited","description":"edited","completed":false}
+2025-06-17 20:20:47.278 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:20:47.279 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7502ff22-302d-4464-b449-460cd1992c63 and body: {"title":"My Todo","description":"Description of my todo","completed":true}
+2025-06-17 20:20:47.280 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:20:47.281 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:47.282 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:47.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:47.285 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:47.286 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:47.287 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:47.288 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:47.288 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:47.289 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:47.290 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:47.291 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:47.292 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:47.293 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:47.293 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:47.295 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:47.295 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:47.297 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:47.298 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:47.300 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:47.301 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:47.302 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:47.302 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:47.304 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:47.305 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:47.305 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:47.306 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:47.307 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"","completed":true}
+2025-06-17 20:20:47.308 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:20:47.309 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:47.310 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:47.312 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 20:20:47.313 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 20:20:47.314 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:47.316 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:47.317 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":false}
+2025-06-17 20:20:47.318 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 20:20:47.320 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:47.321 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:47.322 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3 and body: {"title":"test","description":"rest","completed":true}
+2025-06-17 20:20:47.323 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 20:20:47.325 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:47.326 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:47.328 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 20:20:47.329 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:20:47.330 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:47.331 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:20:47.332 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640 and body: {"title":"dfadf","description":"asdfadf","completed":true}
+2025-06-17 20:20:47.334 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:22:39.861 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:22:39.862 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:22:44.185 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":false}
+2025-06-17 20:22:44.186 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:22:47.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:22:47.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:22:49.400 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":true}
+2025-06-17 20:22:49.400 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:22:50.756 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:22:50.756 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:23:16.348 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 20:23:16.349 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 20:23:18.222 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:23:18.222 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:23:27.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"description","completed":false}
+2025-06-17 20:23:27.758 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:23:28.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"description","completed":false}
+2025-06-17 20:23:28.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 20:23:31.677 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:23:31.677 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:24:55.626 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":true}
+2025-06-17 20:24:55.627 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:24:57.678 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":true}
+2025-06-17 20:24:57.679 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:25:05.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":false}
+2025-06-17 20:25:05.078 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:25:07.001 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":true}
+2025-06-17 20:25:07.002 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:25:10.966 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e and body: {"title":"edited1","description":"edited","completed":true}
+2025-06-17 20:25:10.967 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:25:31.923 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"new todo","description":"add todo","completed":false}
+2025-06-17 20:25:31.925 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:25:35.512 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: undefined and body: {"title":"new todo","description":"add todo","completed":true}
+2025-06-17 20:25:35.522 [vert.x-eventloop-thread-0] WARN  com.todolist.MainVerticle - Todo not found for update with id: undefined
+2025-06-17 20:27:27.250 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:27:27.250 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 9 todos
+2025-06-17 20:27:31.521 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81 and body: {"title":"new todo","description":"add todo","completed":true}
+2025-06-17 20:27:31.522 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:27:32.407 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81 and body: {"title":"new todo","description":"add todo","completed":false}
+2025-06-17 20:27:32.409 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:27:34.043 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81 and body: {"title":"new todo","description":"add todo","completed":true}
+2025-06-17 20:27:34.044 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:27:41.860 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81 and body: {"title":"new todo","description":"add todo","completed":false}
+2025-06-17 20:27:41.861 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:27:43.515 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81 and body: {"title":"new todo","description":"add todo","completed":false}
+2025-06-17 20:27:43.516 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:28:14.680 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"add a todo with id","description":"important","completed":false}
+2025-06-17 20:28:14.681 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:28:17.270 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf and body: {"title":"add a todo with id","description":"important","completed":true}
+2025-06-17 20:28:17.271 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:28:21.014 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf and body: {"title":"add a todo with id","description":"important","completed":true}
+2025-06-17 20:28:21.015 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:28:22.899 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf and body: {"title":"add a todo with id","description":"important","completed":false}
+2025-06-17 20:28:22.899 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:28:26.472 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf and body: {"title":"add a todo with id","description":"important","completed":true}
+2025-06-17 20:28:26.473 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:36:58.226 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:36:58.226 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 10 todos
+2025-06-17 20:40:48.489 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:40:48.489 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 10 todos
+2025-06-17 20:40:53.870 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:40:53.874 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 01e57a78-c3df-483d-81ad-fb5771b611cf
+2025-06-17 20:41:29.684 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:41:29.684 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 72bca79e-bd80-4fbc-b41c-e7d06e9f5b81
+2025-06-17 20:41:50.028 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:41:50.028 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 8 todos
+2025-06-17 20:42:09.395 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:42:09.395 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: ef5ee1bc-5888-4b93-ba3d-a1017c5be640
+2025-06-17 20:42:56.385 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:42:56.386 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 1724c5ce-ddbd-4617-9990-b0f5fea78c0e
+2025-06-17 20:42:59.348 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:42:59.348 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 6 todos
+2025-06-17 20:43:03.128 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:43:03.129 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 7502ff22-302d-4464-b449-460cd1992c63
+2025-06-17 20:43:13.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 20:43:13.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 21:47:17.065 [main] INFO  com.todolist.service.TodoService - Loaded 5 todos from file
+2025-06-17 21:47:17.095 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-17 21:47:17.182 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-17 21:47:40.813 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:47:40.846 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 21:47:40.887 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:47:40.889 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 21:47:48.753 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa and body: {"title":"testte","description":"sdfasdf","completed":true}
+2025-06-17 21:47:48.771 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 06de73d5-353f-44f7-8cea-cb2b98b113fa
+2025-06-17 21:47:50.901 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:47:50.902 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 5 todos
+2025-06-17 21:47:58.627 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 21:47:58.628 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 5a74f703-dfe0-4486-8ad5-139a6a30f3c3
+2025-06-17 21:48:02.348 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:48:02.349 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:48:46.680 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"description","completed":false}
+2025-06-17 21:48:46.682 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 21:48:48.737 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo","description":"description","completed":false}
+2025-06-17 21:48:48.738 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 21:48:52.759 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo1123","description":"description","completed":false}
+2025-06-17 21:48:52.761 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 21:48:55.590 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:48:55.590 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:49:08.166 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":false}
+2025-06-17 21:49:08.167 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 21:50:18.417 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 21:50:18.418 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 21:50:20.195 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 21:50:20.196 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 21:50:25.856 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 21:50:25.856 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 21:50:27.424 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":false}
+2025-06-17 21:50:27.425 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 21:50:30.430 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 9a6183bc-6af8-4948-8b60-198890613790 and body: {"title":"fadfa","description":"adfasdf","completed":true}
+2025-06-17 21:50:30.431 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 9a6183bc-6af8-4948-8b60-198890613790
+2025-06-17 21:52:13.700 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc and body: {"title":"My Todo1123","description":"description","completed":true}
+2025-06-17 21:52:13.701 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 54383b7d-353c-4b2e-8f7f-0add41bcc3bc
+2025-06-17 21:52:43.776 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:52:43.777 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:52:46.835 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:52:46.836 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:53:08.748 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:53:08.749 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:53:15.011 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:53:15.011 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:53:53.244 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:53:53.245 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:54:00.937 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:54:00.938 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:54:06.123 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:54:06.123 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:55:09.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:55:09.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 4 todos
+2025-06-17 21:55:37.849 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"test","description":"tasdfa","completed":false}
+2025-06-17 21:55:37.853 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: fe6f071b-92da-42c1-837c-ecabf4769d02
+2025-06-17 21:56:48.468 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037 and body: {"title":"test","description":"test description","completed":true}
+2025-06-17 21:56:48.469 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 21:56:49.330 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: fe6f071b-92da-42c1-837c-ecabf4769d02 and body: {"title":"test","description":"tasdfa","completed":true}
+2025-06-17 21:56:49.332 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: fe6f071b-92da-42c1-837c-ecabf4769d02
+2025-06-17 21:57:02.523 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"test","description":"asdfad","completed":false}
+2025-06-17 21:57:02.524 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 8f3d73cf-ed4b-405b-b28c-0a7467d1d7ac
+2025-06-17 21:57:09.126 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"asdfas","description":"asdfadf","completed":false}
+2025-06-17 21:57:09.127 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: c34a3a0f-6deb-48bf-a8a8-35000580a574
+2025-06-17 21:57:46.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:57:46.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 21:58:42.798 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:58:42.798 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 21:58:48.541 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:58:48.542 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 21:58:49.447 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:58:49.447 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 21:59:00.388 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:59:00.388 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 21:59:29.056 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 21:59:29.056 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 21:59:39.212 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"adfadf","description":"asdfad","completed":false}
+2025-06-17 21:59:39.214 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: d60b6863-15e6-4df7-adc6-55cc2d066a46
+2025-06-17 22:00:40.793 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 22:00:40.794 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 0ffd1fc8-db7b-4081-ae8d-743ec508d037
+2025-06-17 22:00:56.255 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-17 22:00:56.256 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 7 todos
+2025-06-17 22:01:16.480 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"adfadf","description":"asdfasdf","completed":false}
+2025-06-17 22:01:16.481 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: b6e240dd-2dca-4f86-af04-42fae2902a5f
+2025-06-17 22:03:20.716 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 8f3d73cf-ed4b-405b-b28c-0a7467d1d7ac and body: {"title":"test","description":"asdfad","completed":true}
+2025-06-17 22:03:20.717 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 8f3d73cf-ed4b-405b-b28c-0a7467d1d7ac
+2025-06-17 22:03:21.053 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: c34a3a0f-6deb-48bf-a8a8-35000580a574 and body: {"title":"asdfas","description":"asdfadf","completed":true}
+2025-06-17 22:03:21.054 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: c34a3a0f-6deb-48bf-a8a8-35000580a574
+2025-06-17 22:03:21.568 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: d60b6863-15e6-4df7-adc6-55cc2d066a46 and body: {"title":"adfadf","description":"asdfad","completed":true}
+2025-06-17 22:03:21.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: d60b6863-15e6-4df7-adc6-55cc2d066a46
+2025-06-17 22:03:22.353 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: b6e240dd-2dca-4f86-af04-42fae2902a5f and body: {"title":"adfadf","description":"asdfasdf","completed":true}
+2025-06-17 22:03:22.354 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: b6e240dd-2dca-4f86-af04-42fae2902a5f

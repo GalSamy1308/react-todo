@@ -1,0 +1,3 @@
+2025-06-15 16:36:17.480 [main] INFO  com.todolist.service.TodoService - No existing todos file found, starting with empty list
+2025-06-15 16:36:17.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-15 16:36:17.624 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
