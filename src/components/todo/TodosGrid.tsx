@@ -7,7 +7,7 @@ import {useEffect} from "react";
 import {setError, setLoading, setStoreTodos} from "../../store/slices/TodoSlice";
 import fetchTodosApi from '../../api/FetchTodosApi';
 
-function ToDosGrid() {
+function TodosGrid() {
     const dispatch = useDispatch();
     const { todos, loading, error } = useSelector((state: RootState) => state.todoSlice);
 
@@ -58,4 +58,4 @@ function ToDosGrid() {
     )
 }
 
-export default ToDosGrid;
+export default TodosGrid;
