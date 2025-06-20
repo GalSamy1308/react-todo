@@ -1,12 +1,13 @@
 import React from 'react';
 import { Snackbar, Alert } from '@mui/material';
 
-interface SuccessPopupProps {
+interface TodoPopupProps {
     open: boolean;
     upperOnClose : () => void;
     message: string;
+    severity: "success" | "info" | "warning" | "error" | undefined;
 }
-function AddSuccessPopup(props: SuccessPopupProps) {
+function ActionPopup(props: TodoPopupProps) {
     const [open, setOpen] = React.useState(false);
     const handleClose = (_: any, reason?: string) => {
         props.upperOnClose();
@@ -19,7 +20,7 @@ function AddSuccessPopup(props: SuccessPopupProps) {
 
         <>
             <Snackbar open={true} autoHideDuration={4000} onClose={handleClose}>
-                <Alert onClose={handleClose} severity="success" sx={{ width: '100%' }}>
+                <Alert onClose={handleClose} severity={props.severity} sx={{ width: '100%' }}>
                     {props.message}
                 </Alert>
             </Snackbar>
@@ -27,4 +28,4 @@ function AddSuccessPopup(props: SuccessPopupProps) {
     );
 }
 
-export default AddSuccessPopup;
+export default ActionPopup;

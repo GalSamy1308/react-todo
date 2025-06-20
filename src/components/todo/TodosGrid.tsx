@@ -9,28 +9,28 @@ import fetchTodosApi from '../../api/FetchTodosApi';
 
 function TodosGrid() {
     const dispatch = useDispatch();
-    const { todos, loading, error } = useSelector((state: RootState) => state.todoSlice);
+    const {searchedTodos, loading, error} = useSelector((state: RootState) => state.todoSlice);
 
-    useEffect( () => {
-            const loadTodos = async () => {
-                try {
-                    dispatch(setLoading(true));
-                    dispatch(setError(""));
-                    const localTodos: TodoType[] = await fetchTodosApi()
-                    dispatch(setStoreTodos(localTodos))
-                } catch (err) {
-                    dispatch(setError("problem fetching todos"));
-                } finally {
-                    dispatch(setLoading(false));
-                }
-                return "finished trying to load todos";
+    useEffect(() => {
+        const loadTodos = async () => {
+            try {
+                dispatch(setLoading(true));
+                dispatch(setError(""));
+                const localTodos: TodoType[] = await fetchTodosApi()
+                dispatch(setStoreTodos(localTodos))
+            } catch (err) {
+                dispatch(setError("problem fetching todos"));
+            } finally {
+                dispatch(setLoading(false));
             }
-            loadTodos().then();
+            return "finished trying to load todos";
+        }
+        loadTodos().then();
 
     }, [dispatch]);
 
     if (loading) {
-        return <CircularProgress sx={{ margin: '2rem auto', display: 'block' }} />;
+        return <CircularProgress sx={{margin: '2rem auto', display: 'block'}}/>;
     }
 
     if (error) {
@@ -49,7 +49,7 @@ function TodosGrid() {
             justifyContent: 'center',
             width: '100%'
         }}>
-            {todos.map((todo) => (
+            {searchedTodos.map((todo) => (
                 <Todo key={todo.id} {...todo} />
             ))}
 

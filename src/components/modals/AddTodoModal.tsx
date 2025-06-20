@@ -1,11 +1,10 @@
 import React, {useEffect, useState} from 'react';
 import {Modal, Box, Button, TextField, Typography} from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
-import { useDispatch } from 'react-redux';
-import { addStoreTodo } from '../../store/slices/TodoSlice';
-import AddErrorPopup from '../popups/AddErrorPopup';
+import {useDispatch} from 'react-redux';
+import {addStoreTodo} from '../../store/slices/TodoSlice';
 import postTodoApi from "../../api/PostTodoApi";
-import AddSuccessPopup from "../popups/AddSuccessPopup";
+import ActionPopup from "../popups/ActionPopup";
 
 function AddTodoModal() {
     const dispatch = useDispatch();
@@ -44,6 +43,7 @@ function AddTodoModal() {
     function handleErrorPopupClose() {
         setErrorPopupVisible(false);
     }
+
     function handleSuccessPopupClose() {
         setSuccessPopupVisible(false);
     }
@@ -52,7 +52,14 @@ function AddTodoModal() {
     }, [isErrorPopupVisible, isSuccessPopupVisible]);
     return (
         <>
-        {isSuccessPopupVisible && <AddSuccessPopup open={isSuccessPopupVisible} upperOnClose={handleSuccessPopupClose} message={"Successfully created a todo!"}></AddSuccessPopup>}
+            {isSuccessPopupVisible &&
+                <ActionPopup
+                    open={isSuccessPopupVisible}
+                    upperOnClose={handleSuccessPopupClose}
+                    message={"Successfully created a todo!"}
+                    severity={"success"}
+                />
+            }
             <Button
                 variant="contained"
                 color="primary"
@@ -100,13 +107,19 @@ function AddTodoModal() {
                     <Button
                         variant="contained"
                         color="primary"
-                        onClick={ () => handleAddTodo()}
+                        onClick={() => handleAddTodo()}
                     >
                         Add Todo
                     </Button>
                 </Box>
             </Modal>
-            {isErrorPopupVisible && <AddErrorPopup open={isErrorPopupVisible} upperOnClose={handleErrorPopupClose} message={errorMessage}/>}
+            {isErrorPopupVisible &&
+                <ActionPopup
+                    open={isErrorPopupVisible}
+                    upperOnClose={handleErrorPopupClose}
+                    severity={"error"}  message={errorMessage}
+                />
+            }
         </>
     );
 }

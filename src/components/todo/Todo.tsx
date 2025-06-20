@@ -29,23 +29,18 @@ function Todo({id, title, description, completed}: TodoType) {
     const handleToggleCompleted = async () => {
         const updated = !isCompleted;
         setIsCompleted(updated);
-
-        const response = await putTodo(editedTitle, editedDescription, updated, id);
+        const response: TodoType | { error: string } = await putTodo(editedTitle, editedDescription, updated, id);
         if ('error' in response) return console.error(response.error);
-
         dispatch(setCompletedTodo({id, completed: updated}));
     };
 
     const handleSaveEdit = async () => {
         setIsEditing(false);
-
         const response = await putTodo(editedTitle, editedDescription, isCompleted, id);
         if ('error' in response) return console.error(response.error);
-
         dispatch(updateStoreTodo({id, title: editedTitle, description: editedDescription, completed: isCompleted}));
     };
 
-    // Common text field styling to ensure consistency
     const textFieldStyles = {
         width: '100%',
         mb: 1,
@@ -60,8 +55,8 @@ function Todo({id, title, description, completed}: TodoType) {
         }
     };
 
-    // Common typography styling
     const typographyStyles = {
+        textAlign: 'left',
         fontSize: '1.2rem',
         lineHeight: 1.5,
         mb: 1,
@@ -146,7 +141,8 @@ function Todo({id, title, description, completed}: TodoType) {
             }}
         >
             <CardContent sx={{flexGrow: 1, display: 'flex', overflow: 'hidden',}}>
-                <Checkbox checked={isCompleted} onChange={handleToggleCompleted} sx={{ alignSelf: 'flex-start', flexShrink: 0 }}/>
+                <Checkbox checked={isCompleted} onChange={handleToggleCompleted}
+                          sx={{alignSelf: 'flex-start', flexShrink: 0}}/>
                 <Box sx={{
                     display: 'flex',
                     flexDirection: 'column',
