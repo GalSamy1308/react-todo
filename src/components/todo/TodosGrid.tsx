@@ -12,7 +12,6 @@ function TodosGrid() {
     const { todos, loading, error } = useSelector((state: RootState) => state.todoSlice);
 
     useEffect( () => {
-        console.log("todo grid : use effect.")
             const loadTodos = async () => {
                 try {
                     dispatch(setLoading(true));
@@ -26,7 +25,7 @@ function TodosGrid() {
                 }
                 return "finished trying to load todos";
             }
-            loadTodos().then(r => console.log("r :" + r));
+            loadTodos().then();
 
     }, [dispatch]);
 
