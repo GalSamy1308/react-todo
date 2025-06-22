@@ -12,23 +12,28 @@ function TodosGrid() {
     const {searchedTodos, loading, error} = useSelector((state: RootState) => state.todoSlice);
 
     useEffect(() => {
-        const loadTodos = async () => {
-            try {
-                dispatch(setLoading(true));
-                dispatch(setError(""));
-                const localTodos: TodoType[] = await fetchTodosApi()
-                dispatch(setStoreTodos(localTodos))
-            } catch (err) {
-                dispatch(setError("problem fetching todos"));
-            } finally {
-                dispatch(setLoading(false));
+        const loadTodos = async (retries = 10, delay = 2000) => {
+            for (let attempt = 1; attempt <= retries; attempt++) {
+                try {
+                    dispatch(setLoading(true));
+                    dispatch(setError(""));
+                    const localTodos: TodoType[] = await fetchTodosApi()
+                    dispatch(setStoreTodos(localTodos))
+                    return "finished trying to load todos";
+                } catch (err) {
+                    if (attempt === retries) {
+                        dispatch(setError("problem fetching todos"));
+                    } else {
+                        await new Promise(resolve => setTimeout(resolve, delay));
+                    }
+                } finally {
+                    dispatch(setLoading(false));
+                }
             }
             return "finished trying to load todos";
         }
         loadTodos().then();
-
     }, [dispatch]);
-
     if (loading) {
         return <CircularProgress sx={{margin: '2rem auto', display: 'block'}}/>;
     }

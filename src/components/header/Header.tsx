@@ -1,10 +1,16 @@
 import React from 'react';
+import {Typography} from "@mui/material";
 
 function Header( ) {
     return (
-        <div className="App">
-            <h1>To Do App</h1>
-        </div>
+            <Typography
+                variant={'h2'}
+                sx={{
+                    m:1
+                }}
+            >
+                To Do App
+            </Typography>
     );
 }
 

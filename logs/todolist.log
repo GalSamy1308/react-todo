@@ -20,3 +20,1379 @@
 2025-06-19 19:28:46.996 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
 2025-06-19 19:28:52.769 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
 2025-06-19 19:28:52.770 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:53:55.487 [main] WARN  i.n.r.d.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2025-06-22 13:53:56.207 [main] INFO  com.todolist.service.TodoService - Loaded 2 todos from file
+2025-06-22 13:53:56.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-22 13:53:56.480 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-22 13:56:56.366 [main] WARN  i.n.r.d.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2025-06-22 13:56:57.444 [main] INFO  com.todolist.service.TodoService - Loaded 2 todos from file
+2025-06-22 13:56:57.614 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-22 13:56:58.362 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-22 13:56:58.616 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.650 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.698 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.699 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.715 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.716 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.728 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.729 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.741 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.742 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.753 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.758 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.769 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.773 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.785 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.788 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.802 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.805 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.827 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.828 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.842 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.845 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.857 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.859 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.873 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.876 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.885 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.889 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.902 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.911 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.924 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.926 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.952 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.953 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.983 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.985 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:58.997 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:58.999 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.012 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.012 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.025 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.026 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.035 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.036 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.050 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.051 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.062 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.063 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.074 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.075 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.085 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.088 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.098 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.100 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.112 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.113 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.125 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.125 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.137 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.139 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.149 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.150 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.161 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.163 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.173 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.175 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.185 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.187 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.224 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.224 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.230 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.231 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.241 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.243 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.258 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.269 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.273 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.281 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.293 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.293 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.306 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.306 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.317 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.317 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.330 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.330 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.341 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.342 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.352 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.353 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.367 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.368 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.378 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.379 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.391 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.392 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.407 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.408 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.422 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.422 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.431 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.432 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.444 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.445 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.464 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.465 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.477 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.478 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.490 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.490 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.500 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.501 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.513 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.513 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.525 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.526 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.539 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.540 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.557 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.558 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.568 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.585 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.592 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.607 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.608 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.630 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.630 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.642 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.643 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.652 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.653 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.663 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.664 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.674 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.675 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.685 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.685 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.696 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.696 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.714 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.714 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.726 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.726 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.738 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.739 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.749 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.750 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.769 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.770 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.779 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.780 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.789 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.790 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.806 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.825 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.826 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.834 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.834 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.848 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.849 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.862 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.863 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.878 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.878 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.889 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.890 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.902 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.903 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.913 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.926 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.927 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.939 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.940 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.954 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.954 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.967 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.967 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.983 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.983 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:56:59.999 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:56:59.999 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.031 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.031 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.047 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.048 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.072 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.073 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.082 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.084 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.127 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.128 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.138 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.139 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.150 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.150 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.179 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.180 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.207 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.208 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.218 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.225 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.246 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.247 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.264 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.265 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.282 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.300 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.300 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.313 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.313 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.347 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.347 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.542 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.542 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.559 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.560 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.582 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.583 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.599 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.601 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.614 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.615 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.628 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.629 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.643 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.644 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.659 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.659 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.674 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.675 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.689 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.690 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.702 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.707 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.715 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.716 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.726 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.726 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.735 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.735 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.744 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.745 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.789 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.789 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.798 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.799 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.811 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.812 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.823 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.824 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.831 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.870 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.882 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.899 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.900 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.910 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.911 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.934 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:00.935 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:00.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.090 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.097 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.097 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.109 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.110 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.122 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.123 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.147 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.149 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.214 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.214 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.240 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.241 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.248 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.249 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.259 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.259 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.268 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.269 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.278 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.279 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.290 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.291 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.300 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.300 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.313 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.313 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.324 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.324 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.334 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.334 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.344 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.344 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.354 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.355 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.363 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.364 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.374 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.375 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.390 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.391 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.413 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.413 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.427 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.428 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.440 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.440 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.518 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.519 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.742 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.744 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.760 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.761 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.773 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.774 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.785 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.785 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.808 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.815 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.815 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.825 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.826 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.838 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.838 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.846 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.846 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.858 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.858 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.868 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.869 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.880 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.881 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.892 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.893 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.906 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.906 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.916 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.916 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.926 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.927 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.939 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.939 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.961 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.962 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.980 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.981 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:01.994 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:01.995 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.003 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.003 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.013 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.014 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.025 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.025 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.043 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.044 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.055 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.055 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.065 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.065 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.079 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.080 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.090 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.090 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.098 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.099 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.110 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.110 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.119 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.120 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.128 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.129 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.139 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.140 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.148 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.149 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.158 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.158 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.173 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.173 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.182 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.183 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.195 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.196 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.207 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.208 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.219 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.219 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.230 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.231 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.242 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.242 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.258 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.258 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.269 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.269 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.281 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.293 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.294 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.306 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.306 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.315 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.317 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.355 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.356 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.368 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.369 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.383 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.383 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.413 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.414 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.496 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.496 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.509 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.509 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.520 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.521 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.533 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.533 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.546 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.547 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.562 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.573 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.575 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.589 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.590 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.599 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.600 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.613 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.613 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.626 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.629 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.642 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.642 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.656 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.656 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.667 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.668 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.681 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.682 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.696 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.698 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.711 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.712 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.725 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.725 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.735 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.738 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.747 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.748 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.762 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.762 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.773 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.774 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.784 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.785 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.797 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.797 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.808 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.809 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.819 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.822 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.835 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.835 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.852 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.856 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.869 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.869 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.885 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.886 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.899 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.899 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.915 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.931 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.932 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.946 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.946 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.956 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.957 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.967 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.967 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.981 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.982 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:02.995 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:02.995 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.006 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.006 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.016 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.016 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.027 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.028 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.041 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.042 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.057 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.058 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.108 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.108 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.128 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.129 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.149 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.150 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.169 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.170 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.206 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.206 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.216 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.217 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.230 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.230 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.242 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.243 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.258 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.258 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.273 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.273 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.285 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.285 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.300 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.301 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.315 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.315 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.330 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.330 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.341 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.342 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.356 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.357 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.371 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.372 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.385 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.385 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.395 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.395 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.409 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.409 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.420 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.421 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.432 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.433 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.447 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.447 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.458 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.458 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.473 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.474 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.484 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.485 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.508 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.508 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.519 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.519 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.532 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.533 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.546 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.546 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.558 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.559 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.580 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.581 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.591 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.592 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.606 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.606 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.617 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.618 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.630 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.630 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.641 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.641 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.652 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.653 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.666 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.667 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.681 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.681 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.693 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.693 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.716 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.717 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.734 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.749 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.750 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.768 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.769 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.835 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.836 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.848 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.852 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.864 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.864 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.874 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.874 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.893 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.894 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.905 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.906 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.915 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.925 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.925 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.936 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.936 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.947 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.947 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.961 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.961 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.974 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.975 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:03.987 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:03.990 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.000 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.002 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.013 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.013 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.023 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.024 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.035 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.036 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.045 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.045 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.056 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.056 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.067 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.067 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.083 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.084 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.096 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.097 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.107 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.107 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.116 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.116 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.126 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.127 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.141 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.141 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.151 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.151 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.163 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.163 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.174 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.174 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.183 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.184 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.192 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.193 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.236 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.236 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.248 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.249 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.263 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.264 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.291 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.291 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.302 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.302 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.325 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.325 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.335 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.336 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.348 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.348 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.361 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.362 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.376 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.377 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.389 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.390 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.401 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.401 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.423 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.423 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.434 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.435 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.448 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.448 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.500 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.500 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.534 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.535 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.548 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.548 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.563 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.577 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.580 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.599 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.599 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.625 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.626 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.642 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.642 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.661 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.662 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.695 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.696 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.746 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.747 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.756 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.771 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.772 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.783 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.783 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.798 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.799 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.817 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.817 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.826 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.827 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.839 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.839 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.849 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.849 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.857 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.858 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.867 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.868 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.876 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.877 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.885 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.885 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.898 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.898 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.908 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.909 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.922 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.922 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.931 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.932 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.942 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.943 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.955 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.956 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.976 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.976 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.989 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.989 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:04.997 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:04.997 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.008 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.008 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.016 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.016 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.026 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.027 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.036 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.038 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.047 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.047 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.057 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.058 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.067 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.067 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.078 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.086 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.086 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.094 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.095 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.102 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.102 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.112 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.112 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.121 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.122 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.131 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.131 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.141 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.142 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.150 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.150 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.160 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.160 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.172 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.173 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.184 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.184 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.194 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.195 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.206 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.206 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.217 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.217 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.242 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.243 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.434 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.434 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.445 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.445 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.456 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.457 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.467 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.467 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.476 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.477 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.486 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.486 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.512 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.512 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.523 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.524 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.535 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.538 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.548 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.548 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.558 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.559 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.586 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.590 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.599 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.599 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.626 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.627 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.635 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.638 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.647 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.647 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.658 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.658 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.668 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.668 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.678 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.678 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.689 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.690 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.696 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.697 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.708 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.709 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.722 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.723 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.732 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.745 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.746 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.756 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.757 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.767 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.767 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.776 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.777 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.785 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.785 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.795 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.796 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.807 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.818 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.818 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.830 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.830 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.841 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.841 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.851 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.851 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.863 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.863 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.874 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.874 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.884 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.894 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.894 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.907 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.907 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.917 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.917 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.929 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.929 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.940 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.941 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.951 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.951 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.962 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.962 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.974 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.974 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.988 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.989 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:05.998 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:05.998 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.009 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.010 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.021 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.021 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.030 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.031 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.040 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.040 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.050 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.050 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.061 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.062 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.072 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.072 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.110 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.111 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.127 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.127 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.143 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.143 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.152 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.154 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.171 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.172 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.186 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.186 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.199 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.199 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.210 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.211 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.263 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.263 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.289 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.289 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.320 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.320 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.460 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.460 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.469 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.469 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.478 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.478 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.488 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.489 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.496 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.508 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.508 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.515 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.515 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.526 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.527 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.533 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.533 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.544 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.544 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.552 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.552 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.561 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.562 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.572 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.572 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.613 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.613 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.648 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.648 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.666 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.666 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.683 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.684 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.699 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.700 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:06.712 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:06.712 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:24.455 [main] WARN  i.n.r.d.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2025-06-22 13:57:28.134 [main] INFO  com.todolist.service.TodoService - Loaded 2 todos from file
+2025-06-22 13:57:28.203 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-22 13:57:29.244 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-22 13:57:29.502 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.547 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.576 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.578 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.587 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.591 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.600 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.602 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.625 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.628 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.640 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.643 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.650 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.651 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.663 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.664 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.674 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.677 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.685 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.691 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.701 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.703 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.717 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.717 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.731 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.733 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.748 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.749 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.763 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.764 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.778 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.780 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.897 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.898 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.913 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.914 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.926 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.927 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.939 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.941 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.951 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.952 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.965 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.966 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:29.980 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:29.981 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.076 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.076 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.096 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.096 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.107 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.107 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.118 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.118 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.128 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.128 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.167 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.177 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.191 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.193 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.210 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.211 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.223 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.224 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.235 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.235 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.261 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.274 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.278 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.293 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.294 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.309 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.310 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.318 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.319 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.333 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.334 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.349 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.350 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.400 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.401 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.417 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.418 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.445 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.446 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.458 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.458 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.476 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.477 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.496 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.497 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.510 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.510 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.519 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.524 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.534 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.534 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.545 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.545 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.556 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.557 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.568 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.569 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.585 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.585 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.595 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.596 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.606 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.607 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.634 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.634 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.646 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.646 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.659 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.660 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.669 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.672 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.685 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.689 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.699 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.699 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.710 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.711 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.723 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.725 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.736 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.747 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.766 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.766 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.778 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.780 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.791 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.793 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.806 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.806 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.818 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.818 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.831 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.831 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.843 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.843 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.858 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.858 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.868 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.869 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.882 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.883 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.894 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.896 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.908 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.909 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.919 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.922 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.933 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.935 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.950 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.951 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.963 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.964 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.977 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.978 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:30.990 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:30.990 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.001 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.001 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.013 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.014 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.027 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.029 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.040 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.041 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.051 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.052 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.064 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.065 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.079 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.090 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.091 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.101 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.102 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.192 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.192 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.202 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.203 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.216 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.217 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.275 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.275 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.284 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.285 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.297 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.297 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.309 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.309 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.317 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.318 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.327 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.327 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.341 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.342 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.351 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.351 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.400 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.401 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.415 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.415 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.424 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.424 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.435 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.435 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.446 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.447 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.472 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.472 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.485 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.485 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.877 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.877 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.889 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.889 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.902 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.902 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.919 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.922 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.940 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.941 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:31.951 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:31.951 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.047 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.047 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.060 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.061 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.071 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.072 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.082 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.082 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.093 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.118 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.131 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.132 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.143 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.144 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.156 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.157 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.169 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.169 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.181 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.182 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.192 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.193 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.214 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.215 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.226 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.228 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.238 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.239 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.249 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.249 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.260 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.269 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.271 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.295 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.295 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.305 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.306 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.445 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.446 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.458 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.459 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.467 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.469 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.479 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.480 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.489 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.490 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.499 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.499 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.508 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.508 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.518 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.519 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.627 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.630 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:32.748 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:32.749 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:57:34.793 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:57:34.794 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 13:58:12.523 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to delete todo with id: 64ab06a8-ad9a-482d-a344-77c3a3b47fc4
+2025-06-22 13:58:12.533 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully deleted todo with id: 64ab06a8-ad9a-482d-a344-77c3a3b47fc4
+2025-06-22 13:58:22.715 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"bla","description":"bla\n","completed":false}
+2025-06-22 13:58:22.719 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5
+2025-06-22 13:58:48.774 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 13:58:48.775 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:00:32.075 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:00:32.077 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:01:37.247 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:01:37.250 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:16:26.121 [main] WARN  i.n.r.d.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2025-06-22 14:16:26.696 [main] INFO  com.todolist.service.TodoService - Loaded 2 todos from file
+2025-06-22 14:16:26.721 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-22 14:16:26.945 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-22 14:16:31.493 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:16:31.551 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:18:32.200 [main] WARN  i.n.r.d.DnsServerAddressStreamProviders - Can not find io.netty.resolver.dns.macos.MacOSDnsServerAddressStreamProvider in the classpath, fallback to system defaults. This may result in incorrect DNS resolutions on MacOS. Check whether you have a dependency on 'io.netty:netty-resolver-dns-native-macos'
+2025-06-22 14:18:32.677 [main] INFO  com.todolist.service.TodoService - Loaded 2 todos from file
+2025-06-22 14:18:32.694 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Starting TodoList application...
+2025-06-22 14:18:33.019 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - HTTP server started on port 8080
+2025-06-22 14:19:14.018 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:19:14.095 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:19:33.250 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:19:33.257 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:20:17.283 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:20:17.319 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:20:28.974 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:20:28.977 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:20:49.718 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to get all todos
+2025-06-22 14:20:49.734 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully retrieved 2 todos
+2025-06-22 14:22:12.320 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:22:12.417 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:22:17.722 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:22:17.754 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:22:18.875 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:22:18.893 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:22:19.853 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:22:19.862 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:22:20.446 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:22:20.448 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:22:22.463 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: a4b1475b-3156-41f9-817b-97a64182da25 and body: {"title":"test2","description":"test2","completed":true}
+2025-06-22 14:22:22.468 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: a4b1475b-3156-41f9-817b-97a64182da25
+2025-06-22 14:22:23.458 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: a4b1475b-3156-41f9-817b-97a64182da25 and body: {"title":"test2","description":"test2","completed":true}
+2025-06-22 14:22:23.464 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: a4b1475b-3156-41f9-817b-97a64182da25
+2025-06-22 14:23:04.656 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:23:04.658 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:23:07.363 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App\n","completed":false}
+2025-06-22 14:23:07.370 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:23:09.131 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: a4b1475b-3156-41f9-817b-97a64182da25 and body: {"title":"test2","description":"test2","completed":true}
+2025-06-22 14:23:09.140 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: a4b1475b-3156-41f9-817b-97a64182da25
+2025-06-22 14:23:11.082 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5 and body: {"title":"bla","description":"bla\n","completed":false}
+2025-06-22 14:23:11.086 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5
+2025-06-22 14:23:16.983 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5 and body: {"title":"bla","description":"bla","completed":false}
+2025-06-22 14:23:16.986 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5
+2025-06-22 14:23:17.988 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5 and body: {"title":"bla","description":"bla","completed":false}
+2025-06-22 14:23:17.990 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5
+2025-06-22 14:23:18.896 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5 and body: {"title":"bla","description":"bla","completed":false}
+2025-06-22 14:23:18.897 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: c55ae26b-f65c-4905-9ee6-2fc68548bef5
+2025-06-22 14:23:28.247 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App","completed":false}
+2025-06-22 14:23:28.253 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:23:29.472 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a and body: {"title":"To Do App","description":"To Do App","completed":false}
+2025-06-22 14:23:29.473 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 7b64b06e-3ff2-43ba-8f42-90df91c5ca7a
+2025-06-22 14:23:40.841 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to create todo: {"title":"dfggs","description":"sfsgf\n\n\n","completed":false}
+2025-06-22 14:23:40.846 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully created todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef
+2025-06-22 14:23:44.535 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef and body: {"title":"dfggs","description":"sfsgf\n\n\n","completed":false}
+2025-06-22 14:23:44.539 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef
+2025-06-22 14:23:45.672 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef and body: {"title":"dfggs","description":"sfsgf\n\n\n","completed":false}
+2025-06-22 14:23:45.675 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef
+2025-06-22 14:23:46.694 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef and body: {"title":"dfggs","description":"sfsgf\n\n\n","completed":false}
+2025-06-22 14:23:46.697 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef
+2025-06-22 14:23:47.725 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef and body: {"title":"dfggs","description":"sfsgf\n\n\n","completed":false}
+2025-06-22 14:23:47.729 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef
+2025-06-22 14:23:55.076 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef and body: {"title":"dfggs","description":"sfsgf","completed":false}
+2025-06-22 14:23:55.082 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef
+2025-06-22 14:23:56.163 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Received request to update todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef and body: {"title":"dfggs","description":"sfsgf","completed":false}
+2025-06-22 14:23:56.173 [vert.x-eventloop-thread-0] INFO  com.todolist.MainVerticle - Successfully updated todo with id: 201d9d5a-baf3-4d11-9d95-4a9f9d316bef

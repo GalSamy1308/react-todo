@@ -22,7 +22,6 @@ function AddTodoModal() {
 
     async function handleAddTodo(): Promise<void> {
         if (!title || !description) {
-            console.log(isErrorPopupVisible);
             setErrorMessage("Please fill in all fields");
             return setErrorPopupVisible(true);
         }

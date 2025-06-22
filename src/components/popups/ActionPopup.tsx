@@ -8,18 +8,16 @@ interface TodoPopupProps {
     severity: "success" | "info" | "warning" | "error" | undefined;
 }
 function ActionPopup(props: TodoPopupProps) {
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = React.useState(props.open);
     const handleClose = (_: any, reason?: string) => {
         props.upperOnClose();
         if (reason === 'clickaway') return;
         setOpen(false);
     };
-    console.log("AddErrorPopup open:", open); // debug print
-
     return (
 
         <>
-            <Snackbar open={true} autoHideDuration={4000} onClose={handleClose}>
+            <Snackbar open={open} autoHideDuration={4000} onClose={handleClose}>
                 <Alert onClose={handleClose} severity={props.severity} sx={{ width: '100%' }}>
                     {props.message}
                 </Alert>
